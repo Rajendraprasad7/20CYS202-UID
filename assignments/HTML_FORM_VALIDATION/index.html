@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>Anokha Registration Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Name</label>
+                            <input type="text" id = "name" onchange = "NameCheck()" placeholder="Enter your name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" id = "email" onchange = "ValidateEmail()" placeholder="Enter your email">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" id="phonenumber" onchange = "PhoneNumberCheck()" placeholder="Enter mobile number" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Non-binary</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>College</label>
+                            <input type="text" placeholder="Enter name of your college">
+                        </div>
+                    </div>
+            
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>ID Type</label>
+                            <select>
+                                <option disabled selected>Select ID type:</option>
+                                <option>Hosteller</option>
+                                <option>Day Scholar</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ID Number</label>
+                            <input type="number" placeholder="Enter ID number">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gradutaion Year</label>
+                            <input type="date">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Upload a copy of your ID</label>
+                            <input type="file">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Date</label>
+                            <input type="date" placeholder="Enter your issued date">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Expiry Date (Valid Upto)</label>
+                            <input type="date" placeholder="Enter expiry date"d>
+                        </div>
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <select>
+                                <option disabled selected>Select Address type:</option>
+                                <option>Permanent</option>
+                                <option>Temporary</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality">
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state">
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district">
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter city">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Pincode</label>
+                            <input type="number" placeholder="Enter your pincode">
+                        </div>
+
+                        <div class="input-field">
+                            <p style="color:rgb(81, 70, 153) ;">Are you a student of Amrita Vishwa Vidyapeetham University ?</p>
+                        <label class="radio-inline" style="font-family:Consolas;font-size:20px;color:rgb(81, 70, 153);">
+                            <input type="radio" name="optradio" style="height:20px; width:20px;color:rgb(81, 70, 153);"> Yes
+                            <input type="radio" name="optradio" style="height:20px; width:20px;color:rgb(81, 70, 153);"> No
+                        </label>
+                        </div>
+
+    
+                        <div style="color: rgb(81, 70, 153);">
+                            Enter your suggestions for the event:
+                            <textarea rows="4" cols = "170"></textarea>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label style="color: rgb(81, 70, 153); font-size: 15px;">Send a copy of responses</label>
+                            <input type="checkbox" style="height: 15px; width: 15px;">
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
