@@ -1,43 +1,623 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>
-            Anokha TechFest 2023
-        </title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Anokha TechFest 2023</title>
+        <link rel="icon" type="image/x-icon" href="images/anokha.jpeg">
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+                
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-festava-live.css" rel="stylesheet">
+
     </head>
+    
+    <body style="background-image: linear-gradient(rgba(39, 39, 143, 0.4),rgba(252, 252, 252, 0.8)),url('images/mainbanner.jpeg'); background-repeat: no-repeat; background-size: contain;">
+        
 
-    <body>
+        <main>
+
+            <header class="site-header">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-12 col-12 d-flex flex-wrap">
+                            <p class="d-flex me-4 mb-0">
+                                <i class="bi-person custom-icon me-2"></i>
+                                <strong class="text-dark">Welcome to Anokha TechFest 2023</strong>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
 
 
-        <section class="header">
-            <nav>
-                <a href="index.html"><img src="images/logo.svg"></a>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="html/about.html">ABOUT</a></li>
-                        <li><a href="html/profile.html">PROFILE</a></li>
-                        <li><a href="html/login.html">LOG IN</a></li>
-                        <li><a href="html/login.html">SIGN UP</a></li>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg">
+                    </a>
 
-                    </ul>
+                    <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Passes</a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Guests</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Schedule</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Pricing</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="reg" href="register.html">Register</a>
+                            </li>
+                        </ul>
+
+                        <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Passes</a>
+                    </div>
                 </div>
             </nav>
+            
+
+            <section class="hero-section" id="section_1">
+                <!-- <img src="images/mainbanner.jpeg" type="image"> -->
+                <div class="section-overlay"></div>
+                <!-- <img src="images/mainbanner.jpeg" type="image"> -->
+                <div class="container d-flex justify-content-center align-items-center">
+                    
+                    <div class="row">
+
+                        <div class="col-12 mt-auto mb-5 text-center">
+                            <small>Amrita Vishwa Vidyapeetham Presents</small>
+
+                            <h1 class="text-white mb-5">Anokha TechFest 2023</h1>
+
+                            <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
+                        </div>
+                        
+                        <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+                    
+                            <div class="date-wrap">
+                                <h5 class="text-white">
+                                    
+                                    <i class="custom-icon bi-clock me-2"></i>
+                                    10 - 12<sup>th</sup>, Mar 2023
+                                </h5>
+                            </div>
+
+                            <div class="location-wrap mx-auto py-3 py-lg-0">
+                                <h5 class="text-white">
+                                    <i class="custom-icon bi-geo-alt me-2"></i>
+                                    Amrita Vishwa Vidyapeetham, Coimbatore
+                                </h5>
+                            </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon d-flex align-items-center justify-content-center">
+                                    <span class="text-white me-3">Share:</span>
+
+                                    <li class="social-icon-item">
+                                        <a href="https://www.facebook.com/anokha.amrita/" target = "_blank" class="social-icon-link">
+                                            <span class="bi-facebook"></span>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="https://twitter.com/anokha_techfest?lang=en" target = "_blank" class="social-icon-link">
+                                            <span class="bi-twitter"></span>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="https://www.instagram.com/anokhatechfest/?hl=en" target = "_blank" class="social-icon-link">
+                                            <span class="bi-instagram"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
 
 
-            <div class="text-box">
-                <h1>Amrita Vishwa Vidyapeetham</h1>
-                <p>
-                    Welcome to the Anokha TechFest 2023 of Amrita Vishwa Vidyapeetham.
-                </p>
+            <section class="about-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                            <div class="services-info">
+                                <h2 class="text-white mb-4">Anokha TechFest 2023</h2>
+
+                                <p class="text-white">Anokha Techfest, the annual event of Amrita School of Engineering, Coimbatore provides an unique opportunity for students to participate in fun-filled and challenging events and workshops. The event throws open opportunities for students from all disciplines to challenge themselves and foster the “Can Do” attitude. </p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="about-text-wrap">
+                                <img src="images/anokha.jpeg" class="about-image img-fluid">
+                                
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="artists-section section-padding" id="section_3">
                 
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">Meet our esteemed Chief Guests</h1>
+                        </div>
+
+                        <div class="col-lg-5 col-12">
+                            <div class="artists-thumb">
+                                <div class="artists-image-wrap">
+                                    <img src="images/artists/g1.png" class="artists-image img-fluid">
+                                </div>
+
+                                <div class="artists-hover">
+                                    <p>
+                                        <strong>Name:</strong>
+                                        Swami Krishnananda 
+                                    </p>
+
+
+                                    <p>
+                                        <strong>Profession:</strong>
+                                        Board of Management
+                                    </p>
+
+                                    <hr>
+
+
+                                </div>
+                            </div>
+
+                            <div class="artists-thumb">
+                                <div class="artists-image-wrap">
+                                    <img src="images/artists/g4.png" class="artists-image img-fluid">
+                                </div>
+
+                                <div class="artists-hover">
+                                    <p>
+                                        <strong>Name:</strong>
+                                        Swami Abhayamritananda 
+                                    </p>
+
+
+                                    <p>
+                                        <strong>Profession:</strong>
+                                        Pro-Chancellor
+                                    </p>
+
+                                    <hr>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12">
+                            <div class="artists-thumb">
+                                <div class="artists-image-wrap">
+                                    <img src="images/artists/g3.png" class="artists-image img-fluid">
+                                </div>
+
+                                <div class="artists-hover">
+                                    <p>
+                                        <strong>Name:</strong>
+                                        Swami Ramakrishnananda 
+                                    </p>
+
+                                    <p>
+                                        <strong>Profession:</strong>
+                                        Board of Management
+                                    </p>
+
+                                    <hr>
+
+                                </div>
+                            </div>
+
+                            <div class="artists-thumb">
+                                <img src="images/artists/g2.png" class="artists-image img-fluid">
+
+                                <div class="artists-hover">
+                                    <p>
+                                        <strong>Name:</strong>
+                                        Venkat Rangan
+                                    </p>
+
+                                    <p>
+                                        <strong>Profession:</strong>
+                                        Vice - Chancellor
+                                    </p>
+
+                                    <hr>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="schedule-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">Event Schedule</h1>
+
+                            <div class="table-responsive">
+                                <table class="schedule-table table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+
+                                            <th scope="col">Morning</th>
+
+                                            <th scope="col">Afternoon</th>
+
+                                            <th scope="col">Evening</th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Day 1</th>
+
+                                            <td class="table-background-image-wrap pop-background-image">
+                                                <h3>Capture The Flag</h3>
+
+                                                <p class="mb-2">5:00 - 7:00 PM</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #F3DCD4"></td>
+
+                                            <td class="table-background-image-wrap rock-background-image">
+                                                <h3>Drone Battle</h3>
+
+                                                <p class="mb-2">7:00 - 11:00 PM</p>
+
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 2</th>
+                
+                                            <td style="background-color: #ECC9C7"></td>
+
+                                            <td>
+                                                <h3>Competitive Programming</h3>
+
+                                                <p class="mb-2">6:30 - 9:30 PM</p>
+
+                                            </td>
+
+                                            <td style="background-color: #D9E3DA"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 3</th>
+                
+                                            <td class="table-background-image-wrap country-background-image">
+                                                <h3>IoT Workshop </h3>
+
+                                                <p class="mb-2">4:30 - 7:30 PM</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #D1CFC0"></td>
+
+                                            <td>
+                                                <h3>Green Hackathon</h3>
+
+                                                <p class="mb-2">6:00 - 10:00 PM</p>
+
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="pricing-section section-padding section-bg" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="text-center mb-4">Grab your passes!</h2>
+                        </div>
+                        
+                        <div class="col-lg-6 col-12">
+                            <div class="pricing-thumb">
+                                <div class="d-flex">
+                                    <div>
+                                        <h3><small>Premium</small> 2400 INR</h3>
+
+                                        <p>Pass includes:</p>
+                                    </div>
+
+                                    <p class="pricing-tag ms-auto">Save up to <span>20%</span></h2>
+                                </div>
+
+                                <ul class="pricing-list mt-3">
+                                    <li class="pricing-list-item">Accommodation for 3 days</li>
+
+                                    <li class="pricing-list-item">Access to all events</li>
+
+                                    <li class="pricing-list-item">Food and snacks throughout</li>
+
+                                    <li class="pricing-list-item">Souvenir</li>
+                                </ul>
+
+                                <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                    <span>Buy Ticket</span>
+                                    <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="15.5"></circle><line x1="10" y1="18" x2="16" y2="12"></line><line x1="16" y1="12" x2="22" y2="18"></line></g></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                            <div class="pricing-thumb">
+                                <div class="d-flex">
+                                    <div>
+                                        <h3><small>Standard</small> 1000 INR</h3>
+
+                                        <p>Pass includes:</p>
+                                    </div>
+                                </div>
+
+                                <ul class="pricing-list mt-3">
+                                    <li class="pricing-list-item">Accommodation for 1 day</li>
+
+                                    <li class="pricing-list-item">Access to select events</li>
+
+                                    <li class="pricing-list-item">Food and snacks for 1 day</li>
+
+                                    <li class="pricing-list-item">Souvenir at a discount</li>
+                            
+                                </ul>
+
+                                <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                    <span>Buy Ticket</span>
+                                    <svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="15.5"></circle><line x1="10" y1="18" x2="16" y2="12"></line><line x1="16" y1="12" x2="22" y2="18"></line></g></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section section-padding" id="section_6">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="text-center mb-4">Got suggestions? We would love to hear them!</h2>
+
+                            <nav class="d-flex justify-content-center">
+                                <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab" data-bs-target="#nav-ContactForm" type="button" role="tab" aria-controls="nav-ContactForm" aria-selected="false">
+                                        <h5>Contact Form</h5>
+                                    </button>
+
+                                    
+                                </div>
+                            </nav>
+
+                            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
+                                    <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                                        <div class="contact-form-body">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="text" name="contact-name" id="contact-name" class="form-control" placeholder="Full name" required>
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <input type="email" name="contact-email" id="contact-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="College Email address" required>
+                                                </div>
+                                            </div>
+
+                                            <input type="text" name="contact-company" id="contact-company" class="form-control" placeholder="College Name" required>
+
+                                            <textarea name="contact-message" rows="3" class="form-control" id="contact-message" placeholder="Message"></textarea>
+
+                                            <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                                <button type="submit" class="form-control">Send message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="site-footer">
+            <div class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-white mb-lg-0">Anokha Socials</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                            <ul class="social-icon d-flex justify-content-lg-end">
+                                <li class="social-icon-item">
+                                    <a href="https://twitter.com/anokha_techfest?lang=en" target="_blank" class="social-icon-link">
+                                        <span class="bi-twitter"></span>
+                                    </a>
+                                </li>
+    
+    
+                                <li class="social-icon-item">
+                                    <a href="https://www.instagram.com/anokhatechfest/?hl=en" target="_blank" class="social-icon-link">
+                                        <span class="bi-instagram"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.youtube.com/watch?v=B6hXvZnTguc" target="_blank" class="social-icon-link">
+                                        <span class="bi-youtube"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 pb-2">
+                        <h5 class="site-footer-title mb-3">Links</h5>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Home</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_2" class="site-footer-link">About</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_3" class="site-footer-link">Guests</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_4" class="site-footer-link">Schedule</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_5" class="site-footer-link">Pricing</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="register.html" class="site-footer-link">Register</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_6" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <h5 class="site-footer-title mb-3">Have a question?</h5>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 090-080-0760" class="site-footer-link">
+                                0422 268 5000
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:hello@company.com" class="site-footer-link">
+                                anokha@cb.amrita.edu
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                        <h5 class="site-footer-title mb-3">Location</h5>
+
+                        <p class="text-white d-flex mt-3 mb-2">
+                        Amrita Vishwa Vidyapeetham, Coimbatore, Tamil Nadu, India</p>
+
+        
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-12 mt-5">
+                            <p class="copyright-text">Copyright © 2023 Anokha TechFest</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
 
     </body>
-</html> 
+</html>
