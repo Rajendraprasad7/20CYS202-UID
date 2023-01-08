@@ -5,6 +5,11 @@ function ValidateEmail() {
     if (!x.match(mailformat)) {
         alert("You have entered an invalid email address!");
         document.getElementById("email").focus()
+        return false
+    }
+    else 
+    {
+        return true
     }
 }
 
@@ -13,6 +18,11 @@ function PhoneNumberCheck(){
     if (!(x.toString().length == 10)){
         alert("Please enter a valid phone number!")
         document.getElementById("phonenumber").focus()
+        return false
+    }
+    else 
+    {
+        return true
     }
 }
 
@@ -27,5 +37,21 @@ function NameCheck() {
     if (!pattern.test(name)) {
       alert("Please enter a valid name!");
       document.getElementById("name").focus();
+      return false
+    }
+    else 
+    {
+        return true
+    }
+}
+
+function Submit()
+{
+    if (!NameCheck() || !PhoneNumberCheck() || !ValidateEmail())
+    {
+    }
+    else 
+    {
+        alert("Response submitted successfully");
     }
 }
